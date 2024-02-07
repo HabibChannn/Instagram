@@ -1,0 +1,194 @@
+.main {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    margin-top: 50px;
+}
+.sidebar {
+    width: 15%;
+    border-right: 1px solid #d6d6d6;
+    margin-top: -70px;
+    padding-left: 30px;
+}
+.sidebar>li {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sidebar>li>p {
+    margin-left: 20px;
+    margin-right: auto;
+    align-items: center;
+}
+.logo>li {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.status-instagram {
+    height: 120px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+.status-card {
+    flex: 0 0 auto;
+    width: 100px;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.profile > p > span:first-child {
+   margin-bottom: 5px;
+   font-weight: bold;
+   margin-right: auto;
+}
+.imgs > div > img {
+    width: 100%;
+}
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    background: linear-gradient(45deg,#ffe600,#ff0080 80%);
+}
+.username {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+}
+.feed {
+    width: 650px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 13px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.img-wrap {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.5px solid #f2f2f2;
+    display: flex;
+}
+
+.profile > p > img {
+    margin-left: 0; /* Menghapus margin kiri */
+    margin-right: 10px; /* Reduce the right margin to bring it closer */
+    width: 30px;
+}
+
+.profile > p > span:first-child {
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-right: 10px; /* Reduce the right margin to bring it closer */
+    margin-left: 0; /* Menghapus margin kiri */
+}
+
+.swiper {
+    width: 645px; /* Change the width to 100% to make it responsive */
+    max-width: 645px; /* Set a maximum width to maintain readability */
+    margin-right: 100px;
+}
+
+.swiper-slide {
+    width: 100%; /* Make each slide take 100% of the swiper container width */
+}
+
+.swiper-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+}
+.swiper-button-prev, .swiper-button-next {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff80;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    background-color: #ffffff80;
+    left: auto;
+}
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translateZ(0);
+    z-index: 10;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.count {
+    /* margin: 10px auto 10px 110px;
+    margin-bottom: 15px;
+    color: #d3d3d3; */
+    margin-right: auto;
+    margin-left: 110px;
+    color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.comment-box {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 5px;
+    /* background-color: black; */
+    margin-right: 450px;
+}
+
+::placeholder{
+    color:  lightgrey;
+}
+.comment-box>img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.comment-box>input {
+    border: none;
+    width: 95%;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: lighter;
+}
+.comment-box>input:focus {
+    outline: none;
+    background-image: none;
+    text-indent: 0px;
+}
+.commentar{
+    width: 77%;
+    display: flex;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 13px;
+    align-items: center;
+}

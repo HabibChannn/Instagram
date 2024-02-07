@@ -1,0 +1,113 @@
+.account {
+    width: 440px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.account-content {
+    width: 100%;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about > a {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: 2px;
+}
+
+.name {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: auto;
+}
+.account-content>li {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.account-content>li>p {
+    margin-left: 20px;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.account-content>li>a {
+    color: #0999f6;
+    font-size: 13px;
+}
+.account-content>li>p > span:first-child {
+    font-weight: bold;
+    color: black;
+}
+
+.account-content>li>p > span:last-child {
+    color: grey;
+}
+
+li.suggestion>span {
+    color: gray;
+}
+
+li.suggestion>a {
+    color: #000;
+}
+
+.account-info {
+    margin-left: 13px;
+}
+
+.account>li>img {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.account>li>span {
+    font-size: 12px;
+    color: black;
+}
+
+.account>li>suggestion,
+.account>li>friends {
+    font-size: 13px;
+}
+
+.account>li>div>img {
+    width: 32px;
+}
+.profile {
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.profile>p {
+    margin-left: 18px;
+    margin-right: auto;
+}
+.feed-icons {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.feed-icons>img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.feed-icons>img:last-child {
+    margin-left: auto;
+}
+.comments {
+    width: 78%;
+    margin-top: 5px;
+}
+.comments>span.title {
+    font-weight: 700;
+}
+.comments>span.hashtag {
+    color: #00008b;
+}
